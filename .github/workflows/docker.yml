@@ -1,10 +1,10 @@
-name: AutoRead Docker Image Push
+name: AutoRead Docker Image Push(勿动)
 
 on:
   push:
     branches:
       - main
-
+# 这里其实可以使用Windows环境，这样就不需要考虑Linux
 jobs:
   build-and-push:
     runs-on: ubuntu-latest

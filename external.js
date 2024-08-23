@@ -299,7 +299,7 @@
         } else {
           console.log("clickCounter:", clickCounter);
         }
-      }, index * 1000); // 这里的1000毫秒是两次点击之间的间隔，可以根据需要调整
+      }, index * 3000); // 这里的3000毫秒是两次点击之间的间隔，可以根据需要调整
     });
   }
   const button = document.createElement("button");
@@ -335,7 +335,9 @@
     } else {
       // 如果是Linuxdo，就导航到我的帖子
       if (BASE_URL == "https://linux.do") {
-        window.location.href = "https://linux.do/t/topic/13716/285";
+        window.location.href = "https://linux.do/t/topic/13716/340";
+      } else if (BASE_URL == "https://meta.appinn.net") {
+        window.location.href = "https://meta.appinn.net/t/topic/52006";
       } else {
         window.location.href = `${BASE_URL}/t/topic/1`;
       }

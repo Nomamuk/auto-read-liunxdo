@@ -1,5 +1,50 @@
 # Changelog
 
+## [1.4.0](https://www.github.com/14790897/auto-read-liunxdo/compare/v1.3.0...v1.4.0) (2024-08-08)
+
+
+### Features
+
+* action中如果secrets未定义则使用env文件 ([cc2812f](https://www.github.com/14790897/auto-read-liunxdo/commit/cc2812f6a1bdf43bc03c676a963b00ce8271f732))
+* 增加了对小众软件论坛的支持（https://linux.do/t/topic/169209/166） ([598913c](https://www.github.com/14790897/auto-read-liunxdo/commit/598913c09b9bc9b880fe9f974c3da490acb6ca55))
+
+
+### Bug Fixes
+
+* action 中secret读取特殊字符处理 ([5457abc](https://www.github.com/14790897/auto-read-liunxdo/commit/5457abce09c0b26a54ef6b67b0563b49ca567e97))
+* docker-compose.yml命令错误 ([ec3cedc](https://www.github.com/14790897/auto-read-liunxdo/commit/ec3cedc83895cbf8dc759770c1203fa718b52dfd))
+* docker-compose.yml命令错误 ([2b4d73d](https://www.github.com/14790897/auto-read-liunxdo/commit/2b4d73de2becd56f8a1c4d7ecc8aff71de619225))
+* docker-compose.yml命令错误 ([2d8a099](https://www.github.com/14790897/auto-read-liunxdo/commit/2d8a099990d986741189129dfb67ec8e8869325e))
+* docker-compose.yml命令错误（https://linux.do/t/topic/169209/158） ([b83b09c](https://www.github.com/14790897/auto-read-liunxdo/commit/b83b09cbc0b96b846d78d8aa1ef242e4429bac9b))
+* docker命令执行的代码 ([aa36a2b](https://www.github.com/14790897/auto-read-liunxdo/commit/aa36a2b754e2591c65dfdd9314e8676aeba60b2b))
+* loginbutton作用域问题 ([1f626aa](https://www.github.com/14790897/auto-read-liunxdo/commit/1f626aa8cd8299086f91a4019779500cbd9abbfb))
+* Windows需要等待cf的完成 ([bdcbeaf](https://www.github.com/14790897/auto-read-liunxdo/commit/bdcbeaff2403123b74a0e031c28560b16265798b))
+* 似乎不需要特殊处理 ([dc96005](https://www.github.com/14790897/auto-read-liunxdo/commit/dc960051002d88f27e5fd5ccde5a22d6be511250))
+* 增加navigation超时时长 ([7c92ff0](https://www.github.com/14790897/auto-read-liunxdo/commit/7c92ff0b3d58753571674f133eaf3bd88d9c75de))
+* 增加点赞间隔 ([dc472be](https://www.github.com/14790897/auto-read-liunxdo/commit/dc472be03be350e2a69d7adc25ae628f1193f241))
+* 增加点赞间隔，避免频繁429 ([706198d](https://www.github.com/14790897/auto-read-liunxdo/commit/706198d1359157da83bb839827278a6f0b61c01c))
+* 还是要找button ([ba801c9](https://www.github.com/14790897/auto-read-liunxdo/commit/ba801c9cc82b6ba5825fc79111c5d8d319c50cf3))
+
+## [1.3.0](https://www.github.com/14790897/auto-read-liunxdo/compare/v1.2.1...v1.3.0) (2024-08-04)
+
+
+### Features
+
+* bypasscf可以绕过cf了 ([197e04f](https://www.github.com/14790897/auto-read-liunxdo/commit/197e04f1b67164ccabdb8e8347039c2ceb51d8e7))
+* 截图记录功能 ([2e98654](https://www.github.com/14790897/auto-read-liunxdo/commit/2e986540f9170ef345b8d2a3e8df7b4b7a8a00c2))
+* 新的cron ([5e005eb](https://www.github.com/14790897/auto-read-liunxdo/commit/5e005eb4591f193c3b45ba4029e4363c7356f62e))
+
+
+### Bug Fixes
+
+* action大小写问题 ([aeeb918](https://www.github.com/14790897/auto-read-liunxdo/commit/aeeb918fe199003b66279aa1e182496ed4b4d683))
+* auto加双引号 ([b38c22e](https://www.github.com/14790897/auto-read-liunxdo/commit/b38c22ee52165cecdae63c296434f564af7f95f0))
+* docker compose环境变量配置 ([b67d946](https://www.github.com/14790897/auto-read-liunxdo/commit/b67d94633920a9c8f2c5eaf6a8a08590d443cf7c))
+* docker compose环境变量配置 ([a7f19bb](https://www.github.com/14790897/auto-read-liunxdo/commit/a7f19bbd3d139e5ede1402127fed13ce5bfea9f1))
+* es6 dirname不存在 ([b5f02b4](https://www.github.com/14790897/auto-read-liunxdo/commit/b5f02b44c4b2c1d02d1ac83d1bcfe8d2f2e55096))
+* Windows有头，Linux无头 ([5a39ded](https://www.github.com/14790897/auto-read-liunxdo/commit/5a39ded0ca6afc3790d891d70928cc7a863c5e01))
+* 使用{ waitUntil: "domcontentloaded" }避免超时错误 ([8c3e38a](https://www.github.com/14790897/auto-read-liunxdo/commit/8c3e38a73efbc51c02191f0bb71350ff4486d9f5))
+
 ### [1.2.1](https://www.github.com/14790897/auto-read-liunxdo/compare/v1.2.0...v1.2.1) (2024-05-20)
 
 
